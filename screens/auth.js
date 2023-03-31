@@ -47,7 +47,7 @@ const Login = ({ navigation }) => {
             style={styles.image}
           >
             <View style={styles.root}>
-              <Image source={Logo} style={styles.logo} resizeMode="contain" />
+              <Image source={Logo} style={[styles.logo]} resizeMode="cover"/>
             </View>
           </ImageBackground>
           <Text style={styles.heading}>
@@ -113,16 +113,26 @@ const styles = StyleSheet.create({
   },
   root: {
     paddingBottom: 150,
+    shadowColor: "black",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 6.84,
+    elevation: 50,
   },
   logo: {
     width: 200,
     height: 200,
     marginLeft: 150,
-    marginTop: 500,
     borderColor: "black",
     borderRadius: 100,
     borderWidth: 1,
-    shadowColor:'black',
+    top:250,
+    
+
+    
   },
   container: {
     flex: 1,

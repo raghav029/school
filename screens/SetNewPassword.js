@@ -16,7 +16,7 @@ const SetNewPassword = () => {
     <View style={styles.container}>
        <ImageBackground source={require('../image/main.jpg')} style={styles.backgroundImage}>
        <View style={styles.root}>
-              <Image source={Logo} style={styles.logo} resizeMode="contain" />
+              <Image source={Logo} style={styles.logo} resizeMode="cover" />
             </View>
         
         </ImageBackground>
