@@ -15,6 +15,7 @@ import ProfilePage from './screens/Profile';
 import StudentDetailsPage from './screens/StudentDetails';
 import MarksPage from './screens/Marks';
 import Attend from './screens/Attendance';
+import AttendPercent from './screens/AttendPercent';
 
 
 
@@ -43,7 +44,7 @@ const App = () => {
   }
 
   return (
-    <Attend/>
+    <AttendPercent/>
   );
 };
 
