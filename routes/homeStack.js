@@ -1,10 +1,10 @@
 import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
-import Login from "../screens/auth";
-import ForgetPassword from "../screens/forgotpassword";
+import Login from "../screens/Auth";
+import ForgetPassword from "../screens/ForgotPassword";
 import SetNewPassword from "../screens/SetNewPassword";
 import HomeScreen from "../screens/TeacherScreen";
-import StudentsList from "../screens/studentlist";
+import StudentsList from "../screens/StudentList";
 
 const screens = {
   Home: {

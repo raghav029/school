@@ -4,15 +4,17 @@ import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
-import Login from '../school/screens/auth';
-import ForgetPassword from '../school/screens/forgotpassword'
+import Login from './screens/Auth';
+import ForgetPassword from './screens/ForgotPassword'
 import SetNewPassword from './screens/SetNewPassword';
 import Navigator from './routes/homeStack';
-import StudentsList from './screens/studentlist';
+import StudentsList from './screens/StudentList';
 import Timetable from './screens/Timetable';
-import HomeScreen from './screens/TeacherScreen';
 import TeacherScreen from './screens/TeacherScreen';
-import ProfilePage from './screens/profile';
+import ProfilePage from './screens/Profile';
+import StudentDetailsPage from './screens/StudentDetails';
+import MarksPage from './screens/Marks';
+import Attend from './screens/Attendance';
 
 
 
@@ -30,16 +32,18 @@ const App = () => {
     'Roboto4': require('./assets/fonts/RobotoCondensed-Light.ttf'),
     'Roboto5': require('./assets/fonts/RobotoCondensed-LightItalic.ttf'),
     'Roboto6': require('./assets/fonts/RobotoCondensed-Regular.ttf'),
+    'Cormorant': require('./assets/fonts/Cormorant-VariableFont_wght.ttf'),
+    'Forum': require('./assets/fonts/Forum-Regular.ttf'),
 
     
   });
   
   if (!fontsloaded) {
-    return <AppLoading/>;
+    return <Attend/>;
   }
 
   return (
-    <Navigator/>
+    <Attend/>
   );
 };
 

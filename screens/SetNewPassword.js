@@ -74,7 +74,7 @@ logo: {
    //fontWeight: 'bold',
     marginBottom: 80,
     marginTop:100,
-    fontFamily:'Roboto6'
+    fontFamily:'Forum'
   },
   input: {
     borderWidth: 1,

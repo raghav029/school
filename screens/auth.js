@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   heading: {
    //fontWeight: "800",
     marginTop: 100,
-    fontFamily:'Roboto',
+    fontFamily:'Forum',
     fontSize:20
   },
   root: {

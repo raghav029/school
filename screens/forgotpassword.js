@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
    // fontWeight: 'bold',
     textAlign: 'center',
     marginTop:100,
-    fontFamily:'Roboto6'
+    fontFamily:'Forum'
   },
   input: {
     height: 40,
